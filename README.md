@@ -13,6 +13,9 @@ The results from these models are very similar to those presented in the paper, 
 
 The catalytic models by sex, division, serovar, and time varying FOI use the full dataset, and therefor cannot be re-created. For completeness, the code used to produce these resuls (without the data) are included within `models\catalyticModels\otherModels`.
 
+The simulation recovery study (used to create supplementary figures 4 and 5 and supplementary table 3) can be found here:
+`models\catalyticModels\otherModels\simulationRecoveryStudy.R`
+
 The code to estimate the historic time of infection is within `models\historicTimeInfection` folder. 
 
 Firstly, the antibody titre drop was estimated from Lupidi _et al_. The data extracted from the paper is in `data\Lupidi_full_data.csv`. The code to estimate the antibody titre drop can be found here:
